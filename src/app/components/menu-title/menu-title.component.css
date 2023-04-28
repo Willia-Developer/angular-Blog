@@ -1,7 +1,7 @@
-.container_menu-title {
-  color: white;
-}
+
 .container_menu-title > h1 {
+  color: rgb(231, 12, 12);
+  text-shadow: 5px 3px 6px gray;
 margin-top: 15px;
 margin-bottom: 15px;
 font-size: 100px;

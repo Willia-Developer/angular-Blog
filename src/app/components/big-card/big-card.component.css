@@ -20,7 +20,7 @@
   .big-card__descreption {
     margin-top: 20px;
   }
-   .big-card__descreption > a > p {
+   .big-card__descreption > a {
 
    color: rgb(231, 12, 12);
   }
