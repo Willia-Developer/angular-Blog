@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-
+import { ActivatedRoute } from '@angular/router';
 @Component({
   selector: 'app-big-card',
   templateUrl: './big-card.component.html',
@@ -11,8 +11,9 @@ export class BigCardComponent implements OnInit{
   @Input()
   cardTitle: string=""
   @Input()
-  cardDescreption: string=""
-
+  cardDescription: string=""
+  @Input()
+   Id:string="0"
 
 
   constructor() { }
@@ -24,3 +25,4 @@ export class BigCardComponent implements OnInit{
 
 
 }
+
